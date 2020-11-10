@@ -1,0 +1,48 @@
+@media (max-width:500px){
+
+
+
+    body{
+        background:#ffff;
+        border: 5px solid goldenrod;
+        padding: 0;
+        margin: 0;
+        
+       
+        
+
+
+        .top{
+            
+           
+            height: 100%;
+            width: 100%;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            flex-direction: column;
+            
+           img{
+               width: 20%;
+               height: 20%;
+               opacity: 0.8;
+           }
+
+           .line{
+               width: 100%;
+               height: auto;
+               background: goldenrod;
+               color: #ffff;
+           }
+        }
+       
+            
+        
+    }
+
+
+
+}
+
+
+

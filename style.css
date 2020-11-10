@@ -1,0 +1,37 @@
+@media (max-width: 500px) {
+  body {
+    background: #ffff;
+    border: 5px solid goldenrod;
+    padding: 0;
+    margin: 0;
+  }
+  body .top {
+    height: 100%;
+    width: 100%;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-pack: center;
+        -ms-flex-pack: center;
+            justify-content: center;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
+  }
+  body .top img {
+    width: 20%;
+    height: 20%;
+    opacity: 0.8;
+  }
+  body .top .line {
+    width: 100%;
+    height: auto;
+    background: goldenrod;
+    color: #ffff;
+  }
+}
+/*# sourceMappingURL=style.css.map */
