@@ -1,4 +1,6 @@
 @import url("https://fonts.googleapis.com/css2?family=Pacifico&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=La+Belle+Aurore&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Waiting+for+the+Sunrise&display=swap");
 @media (max-width: 500px) {
   body {
     background: #ffff;
@@ -54,7 +56,6 @@
     background: goldenrod;
     color: #ffff;
     text-align: center;
-    padding: 10%;
     font-family: 'Pacifico', cursive;
     display: -webkit-box;
     display: -ms-flexbox;
@@ -105,23 +106,78 @@
     display: -webkit-box;
     display: -ms-flexbox;
     display: flex;
-    -webkit-box-pack: justify;
-        -ms-flex-pack: justify;
-            justify-content: space-between;
-    -webkit-box-align: center;
-        -ms-flex-align: center;
-            align-items: center;
   }
   body .top .table .grid .row {
-    -webkit-box-flex: 1;
-        -ms-flex-positive: 1;
-            flex-grow: 1;
+    margin: 0 0%;
+    padding: 0 0%;
   }
   body .top .end {
     width: 100%;
     height: auto;
     background-color: goldenrod;
     color: white;
+  }
+  body .top .end .contact {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-pack: center;
+        -ms-flex-pack: center;
+            justify-content: center;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
+    border-bottom: 1px solid white;
+  }
+  body .top .end .contact h4 {
+    text-decoration: underline;
+    font-size: 20px;
+  }
+  body .top .end .contact p {
+    font-size: 18px;
+  }
+  body .top .end .footer {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-pack: center;
+        -ms-flex-pack: center;
+            justify-content: center;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
+    font-family: 'Waiting for the Sunrise', cursive;
+    font-weight: 1000;
+  }
+  body .top .end .footer .footer-line1 {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-pack: center;
+        -ms-flex-pack: center;
+            justify-content: center;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
+    padding: 2%;
+    text-align: center;
+  }
+  body .top .end .footer .gif {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-pack: center;
+        -ms-flex-pack: center;
+            justify-content: center;
+  }
+  body .top .end .footer .gif img {
+    width: 20%;
+    height: 10%;
   }
   hr {
     width: 50%;
